@@ -19,6 +19,7 @@ export default function Main() {
     const mphCallBack = (speed) => {
         setSpeedObject({
             kmph: speed*1.6,
+            // this formula will change the speed into mph
             mph: speed 
         })
     }
